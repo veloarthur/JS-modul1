@@ -9,6 +9,6 @@ do {
     value = 0;
   }
   value = Number(value);
-  total = total + value;
+  total += value;
 } while (value !== Infinity);
 alert(`Общая сумма чисел равна ${total}`);
